@@ -1,0 +1,54 @@
+img {
+    width:65px;
+    height:65px;
+}
+h1{
+    font-style: normal bold;
+    text-align: center;
+    color: rgb(12, 0, 139);
+}
+h2{
+    font-style: italic;
+    text-align: left;
+    color: rgb(143, 17, 42);
+}
+table{
+    background-color: rgb(167, 228, 248);
+    border: 1px black solid;
+    padding: 3px
+}
+th{
+    border: 1px black solid;
+    padding: 2px;
+}
+th.header{
+    font-style: oblique;
+    text-align: center;
+    color: black;
+    border: 1px black solid;
+    background-color: rgb(255, 255, 119);
+}
+tr.time{
+    font-style: normal bold;
+    text-align: center;
+    color: black;
+    border: 1.5px black solid;
+    background-color: rgb(255, 204, 110);
+}
+td{
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    cursor: pointer;
+}
+a:active{
+    color: blue;
+}

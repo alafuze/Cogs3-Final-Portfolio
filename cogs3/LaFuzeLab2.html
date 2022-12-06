@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Schedule for Allison - cg3fa22ai - Fall, 2022</title>
+        <link rel="stylesheet" href="./css/lab2style.css" />
+    </head>
+    <body>
+        <h2>How to Define a Table</h2>
+        <dl>
+            <dt>&lt;tr&gt;</dt>
+            <dd>Used when you want to define a <u>row</u> in a table</dd>
+            <dt>&lt;th&gt;</dt>
+            <dd>Used when you want to define a <u>header</u> in a table</dd>
+            <dt>&lt;td&gt;</dt>
+            <dd>Used when you want to add <u>data</u> to a cell within a table</dd>
+            <dt>&lt;thead&gt;</dt>
+            <dd>Used when you want to group content under specific <u>headers</u> in a table</dd>
+            <dt>&lt;tbody&gt;</dt>
+            <dd>Used when you want to group <u>body</u> content within a table</dd>
+            <dt>&lt;tfoot&gt;</dt>
+            <dd>Used when you want to group <u>footer</u> content within a table</dd>
+            <dt>&lt;caption&gt;</dt>
+            <dd>Used to you want to define the <u>caption</u> of a table</dd>
+            <dt>Colspan</dt>
+            <dd>Used when you want to expand the size of a <u>column</u> wihtin a table</dd>
+            <dt>Rowspan</dt>
+            <dd>Used when you want to expand the size of a <u>row</u> within a table</dd>
+            <dt>Cell Spacing</dt>
+            <dd>The space between each cell</dd>
+            <dt>Padding</dt>
+            <dd>The space between the edges of the cell and the cell's content</dd>
+            <dt>Table Borders</dt>
+            <dd>CSS is used to define table borders by their size, color, and style</dd>
+            <dd>example: table{ border: 1px solid black;}
+            </dd>
+            <dt>Border Width</dt>
+            <dd>CSS controls border width by defining the amount of pixels in the border (1px, 5px, etc.)</dd>
+        </dl>
+        <h1>Allison's Schedule - Fall 2022</h1>
+        <table border="2">
+            <caption>Daily Time Table</caption>
+            <tr>
+                <th colspan="2" class="header">Time</th>
+                <th class="header">Monday</th>
+                <th class="header">Tuesday</th>
+                <th class="header">Wednesday</th>
+                <th class="header">Thursday</th>
+                <th class="header">Friday</th>
+                <th class="header">Saturday</th>
+                <th class="header">Sunday</th>
+            </tr>
+            <tr class="time">
+                <th colspan="2">8:00 - 9:00</th>
+                <td>Breakfast</td>
+                <td rowspan="2"><a href="https://medschool.ucsd.edu/som/medicine/divisions/rai/research/broide-lab/Pages/default.aspx" target="blank">Work - Broide Lab <img src="https://t3.ftcdn.net/jpg/03/04/27/12/360_F_304271210_ikONTzlfio9cnS3K9dJtKSGBrajGFpZo.jpg" alt=""></a></td>
+                <td>Breakfast</td>
+                <td rowspan="2"><a href="https://medschool.ucsd.edu/som/medicine/divisions/rai/research/broide-lab/Pages/default.aspx" target="blank">Work - Broide Lab <img src="https://t3.ftcdn.net/jpg/03/04/27/12/360_F_304271210_ikONTzlfio9cnS3K9dJtKSGBrajGFpZo.jpg" alt=""></a></td>
+                <td>Breakfast</td>
+                <td rowspan="4">Sleep</td>
+                <td rowspan="4">Sleep</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">9:00 - 10:00</th>
+                <td rowspan="3"><a href="https://medschool.ucsd.edu/som/medicine/divisions/rai/research/broide-lab/Pages/default.aspx" target="_blank">Work - Broide Lab <img src="https://t3.ftcdn.net/jpg/03/04/27/12/360_F_304271210_ikONTzlfio9cnS3K9dJtKSGBrajGFpZo.jpg" alt=""></a></td>
+                <td><a href="https://www.musicca.com/piano" target="_blank">Mus1A Discussion <img src="https://cdn.pixabay.com/photo/2013/07/12/19/19/bass-154546_1280.png"></a></td>
+                <td><a href="https://www.musicca.com/piano" target="_blank">Mus1A Discussion <img src="https://cdn.pixabay.com/photo/2013/07/12/19/19/bass-154546_1280.png"></a></td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">10:00 - 11:00</th>
+                <td>Lunch</td>
+                <td rowspan="3"><a href="https://medschool.ucsd.edu/som/medicine/divisions/rai/research/broide-lab/Pages/default.aspx" target="_blank"> Work - Broide Lab 
+                    <br />
+                    <img src="https://t3.ftcdn.net/jpg/03/04/27/12/360_F_304271210_ikONTzlfio9cnS3K9dJtKSGBrajGFpZo.jpg" alt=""></a></td>
+                <td>Lunch</td>
+                <td rowspan="2">Study</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">11:00 - 12:00</th>
+                <td><a href="https://www.musicca.com/piano" target="_blank">Mus1A Lecture <img src="https://cdn.pixabay.com/photo/2017/01/09/20/11/music-1967480__340.png"></a></td>
+                <td><a href="https://www.musicca.com/piano" target="_blank">Mus1A Lecture <img src="https://cdn.pixabay.com/photo/2017/01/09/20/11/music-1967480__340.png"></a></td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">12:00 - 1:00</th>
+                <td>Lunch</td>
+                <td rowspan="2"><a href="https://www.ebi.ac.uk/interpro/search/sequence/" target="_blank"> BIMM101 Lecture <img src="https://cdn2.iconfinder.com/data/icons/health-care-57/512/dnk_genetic_medicine_science-512.png"></a></td>
+                <td rowspan="2"><a href="https://www.ebi.ac.uk/interpro/search/sequence/" target="_blank">BIMM101 Lecture <img src="https://cdn2.iconfinder.com/data/icons/health-care-57/512/dnk_genetic_medicine_science-512.png"></a></td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td rowspan="2">Brunch</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">1:00 - 2:00</th>
+                <td>Study</td>
+                <td rowspan="4">Study</td>
+                <td rowspan="4">Study</td>
+                <td rowspan="2">Homework</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">2:00 - 3:00</th>
+                <td><a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs3 Discussion <img src="http://www.clker.com/cliparts/8/2/3/3/13787630241442306059cogs.svg"></a></td>
+                <td rowspan="3"><a href="https://www.ebi.ac.uk/interpro/search/sequence/" target="_blank">BIMM101 Lab <img src="https://cdn2.iconfinder.com/data/icons/health-care-57/512/dnk_genetic_medicine_science-512.png"></a></td>
+                <td rowspan="3"><a href="https://www.ebi.ac.uk/interpro/search/sequence/" target="_blank">BIMM101 Lab <img src="https://cdn2.iconfinder.com/data/icons/health-care-57/512/dnk_genetic_medicine_science-512.png"></a></td>
+                <td>Study</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">3:00 - 4:00</th>
+                <td rowspan="2">Study</td>
+                <td rowspan="2">Netflix</td>
+                <td>Cogs3 Canvas Quiz</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">4:00 - 5:00</th>
+                <td>Netflix</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">5:00 - 6:00</th>
+                <td>Dinner</td>
+                <td>Snack Break</td>
+                <td>Dinner</td>
+                <td>Snack Break</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">6:00 - 7:00</th>
+                <td rowspan="2">Study</td>
+                <td rowspan="2"><a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs3 Lecture <img src="http://www.clker.com/cliparts/8/2/3/3/13787630241442306059cogs.svg"></a></td>
+                <td rowspan="2">Study</td>
+                <td rowspan="2"><a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs3 Lecture <img src="http://www.clker.com/cliparts/8/2/3/3/13787630241442306059cogs.svg"></a></td>
+                <td rowspan="2">Netflix</td>
+                <td rowspan="2">Netflix</td>
+                <td rowspan="2">Netflix</td>
+            </tr>
+            <tr class="time">
+                <th colspan="2">7:00 - 8:00</th>
+            </tr>
+        </table>
+    </body>
+</html>
