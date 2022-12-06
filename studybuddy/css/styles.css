@@ -1,0 +1,195 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+#title{
+    background-color: #D7BDE2;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+color: #30044D;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Nav-Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Oxygen';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.button-color{
+    background-color: #30044D;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8712;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #AF7AC5; 
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #AF7AC5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+/* Carousel */
+
+.carousel-item{
+    height: 400px;
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+    background-color: #AF7AC5;
+    text-align: center;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header{
+    color: #000;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-list{
+    border: 1px solid black;
+}
+
+.pricing-item{
+    border: 0.5px solid black;
+}
+
+
+
+/* Call To Action */
+
+#cta{
+    background-color: #D7BDE2;
+    color: #30044D;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Media */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
